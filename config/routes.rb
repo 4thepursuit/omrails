@@ -5,7 +5,7 @@ Omrails::Application.routes.draw do
 
   get 'about' => 'pages#about'
 
-  root :to => 'pages#home'
+  root :to => 'pins#index'
 
   
 
